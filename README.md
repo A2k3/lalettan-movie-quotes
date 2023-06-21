@@ -1,1 +1,1 @@
-# lalettan-movie-quotes
+# lalettan-dialogues
