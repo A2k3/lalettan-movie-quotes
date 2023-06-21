@@ -1,0 +1,80 @@
+body {
+    background-color: #A2CDB0;
+    
+}
+
+h1{
+    color: #B31312;
+    font-family: 'Noto Serif Malayalam', Serif;
+    font-size: 4rem;
+}
+span {
+    color: #0E2954;
+}
+
+h2 {
+    color: #1D267D;
+    font-size: 3rem;
+    font-family: 'Manjari', sans-serif;
+}
+
+p {
+    font-family: 'Anek Malayalam', sans-serif;
+    text-align: left;
+    padding: 80px 20px 5px 5px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    float: left;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.container {
+    height: 550vh;
+    border: 2px solid gray;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+
+}
+
+.card {
+    height: 600px;
+    flex-grow: 1;
+    flex-basis: 600px;
+    border-radius: 25px;
+    background-color: #17594A;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.fourth p {
+    padding: 5px 20px 5px 40px; 
+} 
+.seventh p{
+    padding: 5px 20px 5px 40px; 
+}
+
+.ninth p {
+    padding: 5px 20px 5px 40px;
+}
+
+.tenth p {
+    padding: 50px 20px 5px 40px;
+}
+
+
+@media (max-width: 680px){
+    h1 {
+        text-align: center;
+        font-size: 3.5rem;
+    }
+}
+
+
+/*responsive website, flex, with images aligned left and right using float*/
